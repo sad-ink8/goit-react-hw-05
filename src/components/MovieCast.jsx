@@ -19,7 +19,6 @@ export default function MovieCast() {
       };
       const response = await axios.get(url, options);
       setCast(response.data.cast);
-      console.log(response.data.cast);
     } catch (error) {}
   }
 
