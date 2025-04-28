@@ -1,0 +1,15 @@
+.reviewList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  margin-left: 64px;
+  margin-right: 256px;
+}
+
+.reviewauthor {
+  color: #fae102;
+}
+.reviewContent {
+  color: #fef7b7e5;
+}

@@ -1,0 +1,21 @@
+.castList {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.actorItem {
+  width: 140px;
+}
+
+.actorDetails {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.actorAccent {
+  color: #fae102cd;
+}

@@ -1,0 +1,24 @@
+.form {
+  padding: 12px 24px;
+  border: 2px solid #ffe6007c;
+  justify-self: center;
+  display: flex;
+  gap: 12px;
+}
+.input {
+  color: #3d0000;
+  background-color: #ffe600c9;
+  border: 0px;
+  padding: 4px 8px;
+}
+
+.btn {
+  border: 0px;
+  background-color: #ffe600c9;
+  color: #3d0000;
+  padding: 4px 8px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffe600;
+}

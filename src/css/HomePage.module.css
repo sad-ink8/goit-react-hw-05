@@ -1,0 +1,9 @@
+.header {
+  align-self: center;
+  justify-self: center;
+  margin-top: 8px;
+  margin-bottom: 24px;
+
+  text-decoration: none;
+  color: #fae102;
+}
