@@ -1,4 +1,4 @@
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, Suspense, useRef } from "react";
 import {
   Link,
   NavLink,
@@ -19,7 +19,7 @@ export default function MovieDetailsPage() {
   const [movie, setMovie] = useState(null);
 
   const location = useLocation();
-  const backLinkHref = location.state ?? "/";
+  const backLinkHref = useRef(location.state ?? "/");
 
   async function getDetails() {
     try {
@@ -45,7 +45,7 @@ export default function MovieDetailsPage() {
 
   return (
     <div>
-      <Link to={backLinkHref} className={css.backLink}>
+      <Link to={backLinkHref.current} className={css.backLink}>
         Go Back
       </Link>
       <div className={css.details}>
